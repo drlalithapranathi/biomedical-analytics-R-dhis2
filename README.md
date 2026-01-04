@@ -6,11 +6,7 @@ This project analyzes maternal and child health indicators in Sierra Leone acros
 
 **Analysis Framework:** Pregnancy (ANC, IPT) → Birth (skilled attendance) → Early Childhood (immunization, malnutrition surveillance)
 
----
-
-## Research Questions and Analysis
-
-### 1. Maternal Health Domain
+## 1. Maternal Health Domain
 
 #### **ANC IPT Coverage Trendline Analysis**
 **Objective:** Review trendlines between ANC IPT 1 and ANC IPT 2 coverage to identify when they will meet.
@@ -73,9 +69,7 @@ This project analyzes maternal and child health indicators in Sierra Leone acros
 
 ![Births by Skilled Attendants](Visualizations-dashboard/births%20by%20skilled%20attendants%20q8.png)
 
----
-
-### 2. Immunization Domain
+## 2. Immunization Domain
 
 #### **National Measles Coverage Analysis**
 **Objective:** Analyze measles coverage for children <1 year and identify months missing the 60% target.
@@ -197,7 +191,7 @@ This project analyzes maternal and child health indicators in Sierra Leone acros
 
 ---
 
-### 3. Child Malnutrition Domain
+## 3. Child Malnutrition Domain
 
 #### **Malnutrition Rates by Chiefdom**
 **Objective:** Identify chiefdom with lowest malnutrition rate and high-malnutrition chiefdoms near Freetown.
