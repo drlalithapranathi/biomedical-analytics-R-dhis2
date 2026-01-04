@@ -283,48 +283,6 @@ A comprehensive DHIS2 dashboard was created consolidating all key visualizations
 
 ---
 
-#### **Data Validation Rules**
-**Objective:** Identify validation rules and data quality issues.
-
-**Three Critical Validation Rules:**
-
-1. **Consistency Rule:**
-   `Live_Births + Still_Births = Total_Births`
-   Ensures internal consistency in birth reporting.
-
-2. **Inventory Rule:**
-   `Measles_Stock_Dispensed ≤ Measles_Stock_On_Hand`
-   A facility cannot dispense more vaccine than available stock.
-
-3. **Demographic Rule:**
-   `Population_<1yr < Population_<5yr`
-   Demographically, children <1 must be subset of children <5.
-
-**Data Quality Issues Identified:**
-
-1. **Widespread missing values** for doses administered (<1 year)
-   - Many facilities reported stock but no doses
-   - Artificially low or zero coverage
-
-2. **Inconsistent/outdated population denominators**
-   - Extremely small or unusual "population <1" values
-   - Produces coverage >100% or high volatility
-
-3. **Facilities not reporting** despite receiving vaccines
-   - Non-reporting sites cause geographic blind spots
-   - Concentrated in remote locations
-
-4. **Over-reporting or duplicate entries** in urban facilities
-   - Implausibly high doses relative to catchment size
-   - Suggests data entry duplication
-
-5. **Spatial reporting biases**
-   - Urban facilities: complete data
-   - Rural/riverine/hard-to-reach chiefdoms: data gaps
-   - Systematic geographic bias in reporting
-
----
-
 ## Critical Insights Identified
 
 1. **Diverging ANC Retention Patterns:** IPT 1 and IPT 2 trendlines moving apart rather than converging, indicating worsening dropout rates between first and second visits
